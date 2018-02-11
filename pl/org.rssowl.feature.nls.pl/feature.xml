@@ -2,7 +2,7 @@
 <feature
       id="org.rssowl.feature.nls.pl"
       label="Polish Translation"
-      version="1.0.0"
+      version="1.0.1"
       provider-name="https://github.com/Xyrio/RSSOwlnix">
 
    <description>
