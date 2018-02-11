@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: German Translation
+Bundle-SymbolicName: org.rssowl.ui.nls.de;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.rssowl.ui
+Bundle-Vendor: RSSOwl.org
