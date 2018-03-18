@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.rssowl.feature.nls.sr"
-      label="Serbian Translation"
+      label="Translation Serbian"
       version="1.0.1"
       provider-name="https://github.com/Xyrio/RSSOwlnix">
 
@@ -228,14 +228,58 @@ Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
 
-   <url>
-      <update label="https://github.com/Xyrio/RSSOwlnix" url="https://xyrio.github.io/RSSOwlnix-site/update/nls/"/>
-   </url>
-
    <requires>
       <import plugin="org.rssowl.core" version="2.1" match="greaterOrEqual"/>
       <import plugin="org.rssowl.ui" version="2.1" match="greaterOrEqual"/>
    </requires>
+
+   <plugin
+         id="org.rssowl.core.nls.sr"
+         download-size="50"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.rssowl.ui.nls.sr"
+         download-size="50"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.contenttype.nl_sr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.beans.nl_sr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.nl_sr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.expressions.nl_sr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
 
    <plugin
          id="org.eclipse.core.jobs.nl_sr"
@@ -246,7 +290,7 @@ litigation.
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.core.runtime.compatibility.auth.nl_sr"
+         id="org.eclipse.core.net.nl_sr"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -255,6 +299,30 @@ litigation.
 
    <plugin
          id="org.eclipse.core.runtime.nl_sr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.nl_sr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.databinding.nl_sr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.nl_sr"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -278,7 +346,7 @@ litigation.
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.ui.net.nl_sr"
+         id="org.eclipse.ui.nl_sr"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -294,7 +362,7 @@ litigation.
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.update.configurator.nl_sr"
+         id="org.eclipse.core.commands.nl_sr"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -302,7 +370,7 @@ litigation.
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.update.core.nl_sr"
+         id="org.eclipse.equinox.p2.ui.importexport.nl_sr"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -310,7 +378,7 @@ litigation.
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.update.ui.nl_sr"
+         id="org.eclipse.equinox.p2.ui.nl_sr"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -318,23 +386,15 @@ litigation.
          unpack="false"/>
 
    <plugin
-         id="org.rssowl.core.nls.sr"
-         download-size="50"
+         id="org.eclipse.equinox.p2.ui.sdk.nl_sr"
+         download-size="0"
          install-size="0"
          version="0.0.0"
          fragment="true"
          unpack="false"/>
 
    <plugin
-         id="org.rssowl.ui.nls.sr"
-         download-size="50"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.jface.nl_sr"
+         id="org.eclipse.equinox.p2.ui.sdk.scheduler.nl_sr"
          download-size="0"
          install-size="0"
          version="0.0.0"
